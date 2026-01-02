@@ -3,7 +3,7 @@ import pandas as pd
 import joblib
 import numpy as np
 import os
-
+import imblearn
 # --- 1. CẤU HÌNH DANH SÁCH MÔ HÌNH ---
 MODEL_FILES = {
     "Stacking (Mô hình tổng hợp)": "stacking_model.pkl",
